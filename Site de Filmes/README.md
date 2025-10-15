@@ -1,6 +1,6 @@
 # Site de Filmes 🎬
 
-Projeto desenvolvido com base em uma videoaula [], utilizada como referência para aprendizado e prática das tecnologias HTML, CSS e JavaScript.
+Projeto desenvolvido com base em uma videoaula no YouTube do canal **DevClub | Programação** ([Link da Aula](https://youtu.be/o_yiPCiwzUs?si=V0FKHg8TwgplaeKz)) , utilizada como referência para aprendizado e prática das tecnologias HTML, CSS e JavaScript.
 
 A página inicial (Home) foi criada junto com o vídeo, incluindo as animações e interações em JavaScript.
 As demais seções, como Filmes, Contato e a navegação entre páginas, foram desenvolvidas por mim, com base em pesquisas e adaptações próprias para aprimorar o layout, a usabilidade e o estilo.
