@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <title>Melhores Filmes | By Maria</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">DevMary</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Filmes</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list section visible" id="home">
+            <div class="item active">
+
+                <div class="movie-img">
+                    <img src="./img/How to Train Your Dragon.jpg" alt="Imagem do filme Como Treinar o seu Dragão">
+                </div>
+
+                <div class="content">
+                    <p class="tag">Uma das melhores amizades</p>
+                    <p class="movie-name">Como Treinar o Seu Dragão (2010)</p>
+                    <p class="description">Soluço, um jovem viking curioso, descobre que os dragões não são monstros,
+                        mas seres extraordinários. Ao conhecer Banguela, o lendário Fúria da Noite, nasce uma amizade
+                        leal e poderosa. Juntos, aprendem que coragem é compreender e proteger quem amamos — e que os
+                        vínculos mais improváveis podem ser os mais fortes.</p>
+
+                    <a class="btn" href="https://www.youtube.com/watch?v=2AKsAxrhqgM" target="_blank">Assistir ao
+                        Trailer</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="movie-img">
+                    <img src="./img/Avatar.jpg" alt="Imagem do filme Avatar">
+                </div>
+
+                <div class="content">
+                    <p class="tag">Um dos melhores universos</p>
+                    <p class="movie-name">Avatar (2009)</p>
+                    <p class="description">Em Pandora, Jake Sully descobre um mundo de beleza indescritível e aprende,
+                        com <i>Neytiri</i> sobre os <i>Na’vi</i>, que conexão e respeito transformam tudo. Ao vivenciar
+                        a cultura deles, ele entende o verdadeiro significado de coragem, pertencimento e harmonia com a
+                        vida ao redor.</p>
+
+                    <a class="btn" href="https://www.youtube.com/watch?v=xRCIxsy-QAw" target="_blank">Assistir ao
+                        Trailer</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="movie-img">
+                    <img src="./img/Alice in Wonderland.jpg" alt="Imagem do filme Alice no País das Maravilhas">
+                </div>
+
+                <div class="content">
+                    <p class="tag">Uma das melhores aventuras</p>
+                    <p class="movie-name">Alice no País das Maravilhas (2010)</p>
+                    <p class="description">Alice segue um coelho branco e cai em um mundo onde nada é o que parece.
+                        Entre criaturas excêntricas e desafios curiosos, ela descobre coragem, imaginação e a
+                        importância de seguir seu próprio caminho, aprendendo que a maior magia está em acreditar em si
+                        mesma.</p>
+
+                    <a class="btn" href="https://www.youtube.com/watch?v=Gyu7zvy8leg" target="_blank">Assistir ao
+                        Trailer</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+            </button>
+
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+        <!-- MOVIES SECTION -->
+        <div class="section" id="movies">
+            <div class="cards">
+                <div class="card1">
+                    <h4>Como Treinar o Seu Dragão 2010</h4>
+                    <img class="img-movies" src="./img/How to Train Your Dragon.jpg" alt="">
+                    <p class="info">Gênero: Infantil/Fantasia</p>
+                    <p class="info">Duração: 1h 38m</p>
+                    <a class="btn-trailer" href="">Saiba mais</a>
+                </div>
+
+                <div class="card2">
+                    <h4>Avatar 2009</h4>
+                    <img class="img-movies" src="./img/Avatar.jpg" alt="">
+                    <p class="info">Gênero: Ficção Científica/Ação</p>
+                    <p class="info">Duração: 2h 42m</p>
+                    <a class="btn-trailer" href="">Saiba mais</a>
+                </div>
+
+                <div class="card3">
+                    <h4>Alice no País das Maravilhas 2010</h4>
+                    <img class="img-movies" src="./img/Alice in Wonderland.jpg" alt="">
+                    <p class="info">Gênero: Infantil/Aventura</p>
+                    <p class="info">Duração: 1h 48m</p>
+                    <a class="btn-trailer" href="">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SAIBA MAIS DOS FILMES -->
+
+        <!-- Modal 1 - Como Treinar o Seu Dragão -->
+        <div id="modal-dragon" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Como Treinar o Seu Dragão (2010)</h2>
+                <p>Soluço é um jovem viking que não tem capacidade para lutar contra os dragões, como é a tradição
+                    local. Sua vida muda quando ele ajuda um dragão que lhe mostra toda a verdade. Juntos, eles tentam
+                    provar que dragões e humanos podem ser amigos.</p>
+                <ul>
+                    <li><strong>Data de lançamento:</strong> 26 de março de 2010 (Brasil)</li>
+                    <li><strong>Diretores:</strong> Chris Sanders, Dean DeBlois</li>
+                    <li><strong>Duração:</strong> 1h 38m</li>
+                    <li><strong>Autora:</strong> Cressida Cowell</li>
+                    <li><strong>Continuação:</strong> Como Treinar o Seu Dragão 2</li>
+                    <li><strong>Onde assistir:</strong> Prime Video e YouTube</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Modal 2 - Avatar -->
+        <div id="modal-avatar" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Avatar (2009)</h2>
+                <p>No exuberante mundo alienígena de Pandora vivem os Na'vi, seres que parecem ser primitivos, mas são
+                    altamente evoluídos. Como o ambiente do planeta é tóxico, foram criados os avatares, corpos
+                    biológicos controlados pela mente humana que se movimentam livremente em Pandora. Jake Sully, um
+                    ex-fuzileiro naval paralítico, volta a andar através de um avatar e se apaixona por uma Na'vi. Esta
+                    paixão leva Jake a lutar pela sobrevivência de Pandora.</p>
+                <ul>
+                    <li><strong>Data de lançamento:</strong> 18 de dezembro de 2009 (Brasil)</li>
+                    <li><strong>Diretor:</strong> James Cameron</li>
+                    <li><strong>Duração:</strong> 2h 42m</li>
+                    <li><strong>Roteiro:</strong> James Cameron</li>
+                    <li><strong>Continuação:</strong> Avatar: O Caminho da Água</li>
+                    <li><strong>Onde assistir:</strong> Disney+, PrimeVideo e YouTube</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Modal 3 - Alice no País das Maravilhas -->
+        <div id="modal-alice" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Alice no País das Maravilhas (2010)</h2>
+                <p>Ainda garotinha, Alice Kingsleigh visitou um lugar mágico pela primeira vez e não tinha mais
+                    lembranças sobre o local a não ser em seus sonhos. Em uma festa da nobreza, a jovem vê um coelho
+                    branco. Alice o segue e cai em um buraco, indo parar em um mundo estranho: o País das Maravilhas.
+                    Lá, ela reencontra personagens que estavam guardados em sua memória através dos sonhos.</p>
+                <ul>
+                    <li><strong>Data de lançamento:</strong> 21 de abril de 2010 (Brasil)</li>
+                    <li><strong>Diretor:</strong> Tim Burton</li>
+                    <li><strong>Duração:</strong> 1h 48m</li>
+                    <li><strong>Autor:</strong> Lewis Carroll</li>
+                    <li><strong>Continuação:</strong> Alice Através do Espelho</li>
+                    <li><strong>Onde assistir:</strong> Disney+, PrimeVideo e YouTube</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div class="section" id="contact">
+
+            <div class="contact-container">
+                <h2>Entre em Contato!</h2>
+                <p>Minhas formas de contato</p>
+
+                <div class="contact-links">
+                    <a href="mailto:devmaryy@email.com" target="_blank">
+                        <img src="./img/icons/Email.png" alt="Email"> Email
+                    </a>
+                    <a href="https://www.instagram.com/mah.rodrigues__/" target="_blank">
+                        <img src="./img/icons/Instagram.png" alt="Instagram"> Instagram
+                    </a>
+                    <a href="https://github.com/devmaryy" target="_blank">
+                        <img src="./img/icons/GitHub.png" alt="GitHub"> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/maria-eduarda-rodrigues-sim%C3%B5es/" target="_blank">
+                        <img src="./img/icons/LinkedIN.png" alt="LinkedIn"> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
