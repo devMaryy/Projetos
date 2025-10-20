@@ -16,4 +16,4 @@ O site apresenta personalizações de tema, paleta de cores e estrutura, mostran
 <br>
 
 ## 🚀 Status do Projeto
-Em andamento 
+Concluído!
